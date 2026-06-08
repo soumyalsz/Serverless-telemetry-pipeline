@@ -9,7 +9,7 @@ So what it does actually is automatically wakes uo everyday and pulls live satel
 4. If the temp is very high or humidity is very wild, it automatically flags it as an anomally.
 5. Everything is instantly printed directly into **Amazon CloudWatch Logs**.
 
-**No 'pip install':** I used python's built in 'urllib.request' and 'json' libs instead of 'requests' so that i dont have to deal with installing external packages or datas to AWS.
+* **No 'pip install':** I used python's built in 'urllib.request' and 'json' libs instead of 'requests' so that i dont have to deal with installing external packages or datas to AWS.
 
 
 ## SS 
