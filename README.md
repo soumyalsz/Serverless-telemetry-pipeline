@@ -13,6 +13,6 @@ So what it does actually is automatically wakes uo everyday and pulls live satel
 
 
 ## SS 
-1. ![setup](architecture.png)
-2. ![live run](execution.png)
-3. ![cloudwatch logs](logs.png)
+1. SETUP ![setup](architecture.png)
+2. LIVE RUN ![live run](execution.png)
+3. LOGS ![cloudwatch logs](logs.png)
