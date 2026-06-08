@@ -5,7 +5,6 @@ from datetime import datetime
 def lambda_handler(event, context):
     latitude = 22.5726
     longitude = 88.3639
-    y
     url = f"https://api.open-meteo.com/v1/forecast?latitude={latitude}&longitude={longitude}&current=temperature_2m,relative_humidity_2m,surface_pressure"
     
     try:
