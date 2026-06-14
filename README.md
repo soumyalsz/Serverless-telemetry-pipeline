@@ -16,3 +16,14 @@ So what it does actually is automatically wakes uo everyday and pulls live satel
 1. SETUP ![setup](architecture.png)
 2. LIVE RUN ![live run](execution.png)
 3. LOGS ![cloudwatch logs](logs.png)
+
+## Production Metrics
+
+CloudWatch metrics confirm stable execution across all serverless dimensions.
+
+![Metrics 1](metrics.png)
+![Metrics 2](metrics(1).png)
+
+* **Invocations & Concurrency:** One automated invocation per day. Peak concurrency stabilized at 1 with zero throttling.
+* **Latency & Queue Age:** Execution duration averaged 706ms despite a temporary upstream API spike on June 12. Async event age remained flat, averaging 34.86ms.
+* **Errors & Delivery Rates:** Maintained a 100% success rate with zero dropped events or delivery failures post-remediation.
